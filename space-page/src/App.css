@@ -1,0 +1,114 @@
+body {
+  height: 100vh;
+  color: white;
+}
+
+.bg-home {
+  background-image: url("https://space-tour-alpha.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbackground-home-desktop.b9634a6f.jpg&w=1920&q=100");
+  background-size: cover;
+  height: 100vh;
+}
+
+.bg-dest {
+  background-image: url("https://space-tour-alpha.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbackground-destination-desktop.bc79fd12.jpg&w=1920&q=100");
+  background-size: cover;
+  height: 100vh;
+}
+
+.bg-crew {
+  background-image: url("https://space-tour-alpha.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbackground-crew-desktop.90729b7f.jpg&w=1920&q=100");
+  background-size: cover;
+  height: 100vh;
+}
+
+.bg-tech {
+  background-image: url("https://space-tour-alpha.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbackground-technology-desktop.9cc72350.jpg&w=1920&q=100");
+  background-size: cover;
+  height: 100vh;
+}
+
+.partition {
+  display: flex;
+  height: 80vh;
+  color: white;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  padding-left: 40px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  color: #000;
+  font-size: 30px;
+}
+
+.nav {
+  gap: 80px;
+  padding-top: 40px;
+  padding-right: 100px;
+}
+
+.text {
+  font-size: 10rem;
+  font-weight: 200;
+}
+
+.bellefair-regular {
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-condensed-regular {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.content {
+  display: none;
+}
+
+.show-content {
+  display: block;
+  display: flex;
+}
+
+.num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
