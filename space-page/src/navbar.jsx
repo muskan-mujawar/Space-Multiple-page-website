@@ -5,8 +5,8 @@ import Destination from "./destination";
 export default function Navbar() {
   return (
     <div>
-      <div className=" nav-underline">
-        <ul className="nav justify-content-end align-items-center ">
+      <div className=" nav-underline nav-hover ">
+        <ul className="navbar justify-content-end align-items-center ">
           <div>
             {" "}
             <li className="nav-item ">

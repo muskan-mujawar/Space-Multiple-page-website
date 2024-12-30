@@ -6,7 +6,10 @@ export default function Crew() {
   return (
     <div className="bg-crew">
       <Navbar />
-      <h2 className="barlow-condensed-regular"> MEET YOUR CREW</h2>
+      <h3 className="barlow-condensed-regular space mt-4 pt-4">
+        <span className="zero pe-2">02</span>
+        MEET YOUR CREW
+      </h3>
       <Crew1 />
     </div>
   );

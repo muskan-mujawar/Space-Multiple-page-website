@@ -10,32 +10,32 @@ export default function Tech1() {
     setToggle(id);
   }
   return (
-    <div>
-      <div>
-        <ul className="d-flex">
+    <div className="d-flex align-items-center">
+      <div class>
+        <ul className="d-flex flex-column ">
           <li
             onClick={() => handleToggle(1)}
-            className="bellefair-regular pe-3 ps-2 rounded-circle border border-white m-2 num"
+            className="bellefair-regular num padding"
           >
-            1
+            <div className="round hover-num">1</div>
           </li>
 
           <li
             onClick={() => handleToggle(2)}
-            className="bellefair-regular pe-3 rounded-circle border border-white m-2 num"
+            className="bellefair-regular num padding"
           >
-            2
+            <div className="round hover-num">2</div>
           </li>
 
           <li
             onClick={() => handleToggle(3)}
-            className="bellefair-regular pe-3 rounded-circle border border-white m-2 num"
+            className="bellefair-regular num padding "
           >
-            3
+            <div className="round hover-num">3</div>
           </li>
         </ul>
       </div>
-      <div>
+      <div className="center">
         {toggle === 1 && <Tech2 />}
         {toggle === 2 && <Tech3 />}
         {toggle === 3 && <Tech4 />}
